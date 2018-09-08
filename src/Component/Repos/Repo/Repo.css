@@ -1,0 +1,29 @@
+.repo {
+    position: relative;
+    display: block;
+    width: 200px;
+    min-height: 50px;
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.repotitle {
+    color: rgb(50, 102, 170);
+    font-weight: 600;
+}
+
+.desc {
+    color: rgb(59, 54, 54);
+    font-size: 12px;
+}
+
+.forks {
+    position: absolute;
+    bottom: -5px;
+    right: 5px;
+    background-color: rgb(29, 185, 146);
+    color: white;
+    font-size: 13px;
+    padding: 2px 5px;
+}

@@ -1,0 +1,13 @@
+.mainprofile {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-column-gap: 30px;
+}
+
+.repogrid {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+    grid-gap: 20px;
+}

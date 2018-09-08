@@ -1,0 +1,23 @@
+.profile {
+    width: 250px;
+    margin: 20px 50px;
+}
+
+.profile img {
+    width: 250px;
+}
+
+.profile p {
+    font-size: 15px;
+    color: rgb(110, 108, 108);
+}
+
+.name {
+    color: rgb(59, 55, 55);
+    font-weight: 600;
+}
+
+.username {
+    color: rgb(110, 108, 108);
+}
+
