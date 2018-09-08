@@ -9,9 +9,9 @@ const userProfile = (props) => {
             <h3 className={classes.name}>{props.name}</h3>
             <h4 className={classes.username}>{props.username}</h4>
             <p><a href={props.github}>{props.github}</a></p>
-            <p className={classes.repo}>Repositories : {props.repos}</p>
-            <p className={classes.flwrs}>Followers : {props.followers}</p>
-            <p className={classes.flw}>Following : {props.following}</p>
+            <p>Repositories : {props.repos}</p>
+            <p >Followers : {props.followers}</p>
+            <p>Following : {props.following}</p>
         </div>
     );
 };
